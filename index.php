@@ -11,8 +11,8 @@
     <hr>
     <ul>
         <li><a href='cadastro_fluxo_caixa.html'>Cadastro Fluxo de Caixa</a></li> 
-        <li><a href='listar_fluxo_de_caixa.php'>Listar Fluxo de Caixa</a></li> 
-        <li><a href='consulta_saldo_de_caixa.php'>Consultar Saldo de Caixa</a></li> 
+        <li><a href='listar_fluxo_caixa.php'>Listar Fluxo de Caixa</a></li> 
+        <li><a href='consulta_saldo_caixa.html'>Consultar Saldo de Caixa</a></li> 
     </ul>
 </body>
 </html>
