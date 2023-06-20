@@ -49,6 +49,7 @@
 		<option value="sim">Sim</option>
 		<option value="nao">Não</option
             value="<?php echo $row['cheque'] ?>">
+
         </div>
         <div>
             <input type="submit" value="Salvar">
