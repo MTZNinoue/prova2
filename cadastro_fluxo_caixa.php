@@ -16,7 +16,7 @@
     echo "Cheque: $cheque <br>";
     
 
-    $sql = "INSERT INTO agenda (data, tipo, valor, historico, cheque)";
+    $sql = "INSERT INTO prova2 (data, tipo, valor, historico, cheque)";
     
 
     $sql .= " VALUES ('".$data."','".$tipo."','".$valor."',
