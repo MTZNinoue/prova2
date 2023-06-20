@@ -21,7 +21,7 @@
 
             foreach($result as $key => $row){
 
-                echo "Valor (Entrada): ".$row['valor'];
+                echo "Adicionado: ".$row['valor'];
             }
         
         }else if ($tipo == 'saida') {
@@ -32,7 +32,7 @@
 
             foreach($result as $key => $row){
 
-                echo "Valor (Saída): ".$row['valor'];
+                echo "Retirado: ".$row['valor'];
             }
 
         }else if ($tipo == 'saldo') {
@@ -46,7 +46,7 @@
 
             foreach($result as $key => $row){
 
-                echo "Valor do Saldo (Entrada - Saída): ".$row['valor'];
+                echo "Saldo Total: ".$row['valor'];
             }
 
         }
