@@ -39,7 +39,7 @@
      echo "<td>".$row['cheque']."</td>";
      echo "<td><a href='altera_fluxo_caixa.php?id="
                 .$row['id']."'>Alterar</a> </td>";
-     echo "<td><a href='deletar_.php?id="
+     echo "<td><a href='excluir_fluxo_caixa.php?id="
                 .$row['id']."'>Deletar</a> </td>";
      echo "</tr>";}
      }while($row = mysqli_fetch_array($result))

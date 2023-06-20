@@ -1,11 +1,12 @@
 <?php
     include('conexao.php');
-    $fluxo = $_GET['fluxo_de_caixa'];
-    $sql = "DELETE FROM agenda where fluxo_caixa=$fluxo";
+    $id = $_GET['id'];
+    $sql = "DELETE FROM fluxo_caixa WHERE id=$id";
     $result = mysqli_query($con,$sql);
     if($result)
-        echo "Dados alterados com sucesso!<br>";
+        echo "Excluido com sucesso<br>";
     else
-        echo "Erro ao alterar dados: ". mysqli_error($con)."!";
+        echo "Erro ao Excluir<br>". mysqli_error($con)."!";
+        
 ?>
     <a href="listar_fluxo_caixa.php">Voltar</a>
