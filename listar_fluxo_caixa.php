@@ -18,6 +18,7 @@
     <h1>Consulta de fluxo de caixas</h1>
     <table align="center" border="1" width="1300">
         <tr>
+            <th>Id</th>
             <th>Data</th>
             <th>Tipo</th>
             <th>Valor</th>

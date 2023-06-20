@@ -14,7 +14,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!--http://localhost/PRW/Banco%20de%20dados/Aulas/altera_usuario?id_usuario=1 -->
+
     <h1>Cadastro Fluxo de Caixa</h1>
     <form action="altera_fluxo_caixa_exe.php" method="POST" >
         <input name="id" type="hidden"
@@ -26,9 +26,9 @@
         </div>
         <div>
         <p>Tipo:</p>
-            <input type="radio" name="tipo" value="Entrada">
+            <input type="radio" name="tipo" value="Entrada" required>
             <label for="Entrada">Entrada</label>
-            <input type="radio" name="tipo" value="Saida">
+            <input type="radio" name="tipo" value="Saida" required>
             <label for="Saida">Saida</label
             value="<?php echo $row['tipo'] ?>">
             
@@ -47,8 +47,7 @@
         <label for="cheque">Cheque:</label>
 	<select id="cheque" name="cheque">
 		<option value="sim">Sim</option>
-		<option value="nao">Não</option
-            value="<?php echo $row['cheque'] ?>">
+		<option value="nao">Não</option>
 
         </div>
         <div>
